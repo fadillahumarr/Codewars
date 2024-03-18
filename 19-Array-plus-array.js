@@ -1,4 +1,4 @@
-//Day 5/366
+//Day 6/366
 
 //https://www.codewars.com/kata/5a2be17aee1aaefe2a000151/train/javascript
 
