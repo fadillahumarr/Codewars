@@ -13,7 +13,17 @@
 // const century = (year) =>
 //   year % 100 != 0 ? Math.ceil(year / 100) : year / 100;
 
-const century = (year) => Math.ceil(year / 100);
+// const century = (year) => Math.ceil(year / 100);
+
+const century = (year) => {
+    let century = 1;
+    while(year > 100){
+        year = year-100;
+        century++;
+    }
+    return century;
+};
+
 
 
 console.log(century(1705));
